@@ -15,10 +15,6 @@ Format: 65 questions, either multiple choice or multiple response
 
 - https://aws.amazon.com/certification/certified-solutions-architect-associate/
 
-
-- https://aws.amazon.com/certification/certified-solutions-architect-associate/
-
-
 AWS Certified Solutions Architect - Associate Exam Guide
 
 AWS Certified Solutions Architect - Associate Sample Questions
