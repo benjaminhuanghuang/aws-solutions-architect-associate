@@ -1,0 +1,3 @@
+# 
+
+Cloud watch -> Alarms -> Billing
