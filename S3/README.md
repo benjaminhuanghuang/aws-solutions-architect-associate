@@ -28,13 +28,6 @@
 ![](./s3-comparison.png)
 
 
-## Charge
-- Storage
-- Requests
-- Storage Management pricing
-- Data Transfer Pricing
-- Thansfer Accesleration
-- Cross Region Replication Pricing
 
 
 
