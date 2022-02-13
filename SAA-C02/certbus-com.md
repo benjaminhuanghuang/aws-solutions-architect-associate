@@ -341,10 +341,147 @@ players every 15 minutes. The mobile game creates a JSON object of the progress 
 update, and sends the JSON object to an Application Load Balancer. As the mobile game is played, game updates are
 being lost. The company wants to create a durable way to get the updates in older. What should a solutions architect
 recommend to decouple the system?
+
 A. Use Amazon Kinesis Data Streams to capture the data and store the JSON object in Amazon S3.
 B. Use Amazon Kinesis Data Firehose to capture the data and store the JSON object in Amazon S3.
 C. Use Amazon Simple Queue Service (Amazon SQS) FIFO queues to capture the data and EC2 instances to process
 the messages in the queue.
 D. Use Amazon Simple Notification Service (Amazon SNS) to capture the data and EC2 instances to process the
 messages sent to the Application Load Balancer.
+
+Correct Answer: C 
+
+QUESTION 3
+A company is building its web application using containers on AWS. The company requires three instances of the web
+application to run at all times. The application must be able to scale to meet increases in demand. Management is
+extremely sensitive to cost but agrees that the application should be highly available.
+What should a solutions architect recommend?
+
+A. Create an Amazon Elastic Container Service (Amazon ECS) cluster using the Fargate launch type.Create a task
+definition for the web application. Create an ECS service with a desired count of three tasks. 
+B. Create an Amazon Elastic Container Service (Amazon ECS) cluster using the Amazon EC2 launch type with three
+container instances in one Availability Zone. Create a task definition for the web application. Place one task for each
+container instance.
+C. Create an Amazon Elastic Container Service (Amazon ECS) cluster using the Fargate launch type with one container
+instance in three different Availability Zones. Create a task definition for the web application. Create an ECS service with
+a desired count of three tasks.
+D. Create an Amazon Elastic Container Service (Amazon ECS) cluster using the Amazon EC2 launch type with one
+container instance in two different Availability Zones. Create a task definition for the web application. Place two tasks on
+one container instance and one task on the remaining container instance.
+
+Correct Answer: D
+
+QUESTION 4
+A web application is deployed in the AWS Cloud It consists of a two-tier architecture that includes a web layer and a
+database layer The web server is vulnerable to cross-site scripting (XSS) attacks What should a solutions architect do to
+remediate the vulnerability?
+A. Create a Classic Load Balancer Put the web layer behind the load balancer and enable AWS WAF
+B. Create a Network Load Balancer Put the web layer behind the load balancer and enable AWS WAF
+C. Create an Application Load Balancer Put the web layer behind the load balancer and enable AWS WAF
+D. Create an Application Load Balancer Put the web layer behind the load balancer and use AWS Shield Standard
+
+Correct Answer: C
+WAF = Web Application Firewall
+Working with cross-site scripting match conditions Attackers sometimes insert scripts into web requests in an effort to
+exploit vulnerabilities in web applications. You can create one or more cross-site scripting match conditions to identify
+the parts of web requests, such as the URI or the query string, that you want AWS WAF Classic to inspect for possible
+malicious scripts. Later in the process, when you create a web ACL, you specify whether to allow or block requests that
+appear to contain malicious scripts. Web Application Firewall
+You can now use AWS WAF to protect your web applications on your Application Load Balancers. AWS WAF is a web
+application firewall that helps protect your web applications from common web exploits that could affect application
+availability, compromise security, or consume excessive resources.
+https://docs.aws.amazon.com/waf/latest/developerguide/classic-web-acl-xss-conditions.html
+https://aws.amazon.com/elasticloadbalancing/features/
+
+QUESTION 5
+A company with a single AWS account runs its internet-facing containerized web application on an Amazon Elastic
+Kubernetes Service (Amazon EKS) cluster. The EKS cluster is placed in a private subnet of a VPC. System
+administrators access the EKS cluster through a bastion host on a public subnet.
+A new corporate security policy requires the company to avoid the use of bastion hosts. The company also must not
+allow internet connectivity to the EKS cluster. 
+Which solution meets these requirements MOST cost-effectively?
+
+A. Set up an AWS Direct Connect connection.
+B. Create a transit gateway.
+C. Establish a VPN connection.
+D. Use AWS Storage Gateway.
+
+Correct Answer: B 
+
+QUESTION 1
+A solutions architect is tasked with transferring 750 TB of data from a network-attached file system located
+at a branch office to Amazon S3 Glacier The solution must avoid saturating the branch office's lowbandwidth internet connection.
+What is the MOST cost-effective solution?
+
+A. Create a site-to-site VPN tunnel to an Amazon S3 bucket and transfer the files directly Create a bucket policy to
+enforce a VPC endpoint
+B. Order 10 AWS Snowball appliances and select an S3 Glacier vault as the destination Create a bucket policy to
+enforce a VPC endpoint
+C. Mount the network-attached file system to Amazon S3 and copy the files directly. Create a lifecycle policy to
+transition the S3 objects to Amazon S3 Glacier
+D. Order 10 AWS Snowball appliances and select an Amazon S3 bucket as the destination. Create a lifecycle policy to
+transition the S3 objects to Amazon S3 Glacier
+
+Correct Answer: D
+Regional Limitations for AWS Snowball
+The AWS Snowball service has two device types, the standard Snowball and the Snowball Edge. The following table
+highlights which of these devices are available in which regions. 
+
+QUESTION 2
+A company is running a multi-tier web application on AWS. The application runs its database tier on Amazon Aurora
+MySQL. The application and database tiers are in the us-east-1 Region A database administrator who regularly
+monitors the Aurora DB cluster finds that an intermittent increase in read traffic is creating high CPU utilization on the
+read replica and causing increased read latency of the application What should a solutions architect do to improve read
+scalability?
+A. Reboot the Aurora DB cluster
+B. Create a cross-Region read replica
+C. Increase the instance class of the read replica
+D. Configure Aurora Auto Scaling for the read replica
+
+Correct Answer: D 
+
+QUESTION 3
+
+A company is using Amazon Redshift for analytics and to generate customer reports. The company recently acquired 50
+TB of additional customer demographic data. The .........S3. The company needs a solution that joins the data and
+visualizes the results with the least possible cost and effort.
+What should a solutions architect recommend to meet these requirements?
+
+A. Use Amazon Redshift Spectrum to query the data in Amazon S3 directly and join that data with the existing data in
+Amazon Redshift. Use Amazon QuickSight to....
+B. Use Amazon Athena to query the data in Amazon S3. Use Amazon QuickSight to join the data from Athena with the
+existing data in Amazon Redshift and to build...
+C. Increase the size of the Amazon Redshift cluster, and load the data from Amazon S3. Use Amazon EMR Notebooks
+to query the data and build the visualizations,,,
+D. Export the data from the Amazon Redshift cluster into Apache Parquet files in Amazon S3. Use Amazon
+Elasticsearch Service (Amazon ES) to query the data. Use..
+
+Correct Answer: B 
+
+QUESTION 4
+A company wants to run a static website served through Amazon CloudFront. What is an advantage of storing the
+website content in an Amazon S3 bucket instead of an Amazon Elastic Block Store (Amazon EBS) volume?
+
+A. S3 buckets are replicated globally, allowing for large scalability. EBS volumes are replicated only within an AWS
+Region.
+B. S3 is an origin for CloudFront. EBS volumes would need EC2 instances behind an Elastic Load Balancing load
+balancer to be an origin
+C. S3 buckets can be encrypted, allowing for secure storage of the web files. EBS volumes cannot be encrypted. 
+D. S3 buckets support object-level read throttling, preventing abuse. EBS volumes do not provide object-level throttling.
+
+Correct Answer: B
+"For static files, store the definitive versions of your files in one or more origin servers. These could be Amazon S3
+buckets. For your dynamically generated content that is personalized or customized, you can use Amazon EC2"
+
+
+QUESTION 5
+A solutions architect is designing a highly available website that is served by multiple web servers hosted outside of
+AWS. If an instance becomes unresponsive, the architect needs to remove it from the rotation. What is the MOST
+efficient way to fulfill this requirement?
+
+A. Use Amazon CloudWatch to monitor utilization.
+B. Use Amazon API Gateway to monitor availability.
+C. Use an Amazon Elastic Load Balancer.
+D. Use Amazon Route 53 health checks.
+
 Correct Answer: C 
