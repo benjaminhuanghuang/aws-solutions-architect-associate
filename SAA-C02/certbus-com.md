@@ -204,3 +204,147 @@ D. Set up Amazon DynamoOB Streams on the table, and have AWS Lambda read from th
 ElastiCache. Route all read requests through ElasliCache
 
 Correct Answer: A 
+
+QUESTION 4
+A company has an automobile sales website that stores its listings in an database on Amazon RDS When an
+automobile is sold, the listing needs to be removed from the website and the data must be sent to multiple target
+systems.
+Which design should a solutions architect recommend?
+A. Create an AWS Lambda function triggered when the database on Amazon RDS is updated to send the information to
+an Amazon Simple Queue Service (Amazon SQS) queue for the targets to consume.
+B. Create an AWS Lambda function triggered when the database on Amazon RDS is updated to send the information to
+an Amazon Simple Queue Service (Amazon SQS) FIFO queue for the targets to consume
+C. Subscribe to an RDS event notification and send an Amazon Simple Queue Service (Amazon SQS) queue fanned
+out to multiple Amazon Simple Notification Service (Amazon SNS) topics Use AWS Lambda functions to update the
+targets
+D. Subscribe to an RDS event notification and send an Amazon Simple Notification Service (Amazon SNS) topic fanned
+out to multiple Amazon Simple Queue Service (Amazon SQS) queues Use AWS Lambda functions to update the
+targets
+Correct Answer: D
+
+
+QUESTION 5
+Which solution should the company use for the data transfer to meet these requirements?
+A. AWS DataSync
+B. AWS Migration Hub
+C. AWS Snowball Edge Storage Optimized
+D. AWS Transfer for SFTP
+Correct Answer: A 
+
+
+QUESTION 1
+A company wants to build a scalable key management infrastructure to support developers who need to encrypt data in
+their applications. What should a solutions architect do to reduce the operational burden?
+
+A. Use multi-factor authentication (MFA) to protect the encryption keys
+B. Use AWS Key Management Service (AWS KMS) to protect the encryption keys
+C. Use AWS Certificate Manager (ACM) to create, store and assign the encryption keys
+D. Use an IAM policy to limit the scope of users who have access permissions to protect the encryption keys
+Correct Answer: B
+
+
+QUESTION 2
+A company runs a public three-Tier web application in a VPC The application runs on Amazon EC2 instances across
+multiple Availability Zones. The EC2 instances that run in private subnets need to communicate with a license server
+over the internet The company needs a managed solution that minimizes operational maintenance
+Which solution meets these requirements?
+
+A. Provision a NAT instance in a public subnet Modify each private subnets route table with a default route that points to
+the NAT instance
+B. Provision a NAT instance in a private subnet Modify each private subnet's route table with a default route that points
+to the NAT instance
+C. Provision a NAT gateway in a public subnet Modify each private subnet's route table with a default route that points
+to the NAT gateway
+D. Provision a NAT gateway in a private subnet Modify each private subnet's route table with a default route that points
+to the NAT gateway .
+
+Correct Answer: C 
+
+QUESTION 3
+A company has a highly dynamic batch processing job that uses many Amazon EC2 instances to complete it. The job is
+stateless in nature, can be started and stopped at any given time with no negative impact, and typically takes upwards
+of 60 minutes total to complete The company has asked a solutions architect to design a scalable and cost-effective
+solution that meets the requirements of the job.
+What should the solutions architect recommend?
+A. Implement EC2 Spot Instances
+B. Purchase EC2 Reserved Instances
+C. Implement EC2 On-Demand Instances 
+D. Implement the processing on AWS Lambda
+
+Correct Answer: A
+
+QUESTION 4
+A company's application is running on Amazon EC2 instances m a single Region in the event of a disaster a solutions
+architect needs to ensure that the resources can also be deployed to a second Region Which combination of actions
+should the solutions architect take to accomplish this? (Select TWO)
+
+A. Detach a volume on an EC2 instance and copy it to Amazon S3
+B. Launch a new EC2 instance from an Amazon Machine image (AMI) in a new Region
+C. Launch a new EC2 instance in a new Region and copy a volume from Amazon S3 to the new instance
+D. Copy an Amazon Machine Image (AMI) of an EC2 instance and specify a different Region for the destination
+E. Copy an Amazon Elastic Block Store (Amazon EBS) volume from Amazon S3 and launch an EC2 instance in the
+destination Region using that EBS volume
+
+Correct Answer: BD
+
+Cross Region EC2 AMI Copy
+We know that you want to build applications that span AWS Regions and we\\'re working to provide you with the
+services and features needed to do so. We started out by launching the EBS Snapshot Copy feature late last year. This
+feature gave you the ability to copy a snapshot from Region to Region with just a couple of clicks. In addition, last month
+we made a significant reduction (26% to 83%) in the cost of transferring data between AWS Regions, making it less
+expensive to operate in more than one AWS region. Today we are introducing a new feature: Amazon Machine Image
+(AMI) Copy. AMI Copy enables you to easily copy your Amazon Machine Images between AWS Regions. AMI Copy
+helps enable several key scenarios including: Simple and Consistent Multi-Region Deployment ?You can copy an AMI
+from one region to another, enabling you to easily launch consistent instances based on the same AMI into different
+regions. Scalability You can more easily design and build world-scale applications that meet the needs of your users,
+regardless of their location.
+Performance You can increase performance by distributing your application and locating critical components of your
+application in closer proximity to your users. You can also take advantage of region-specific features such as instance
+types or other AWS services. Even Higher Availability You can design and deploy applications across AWS regions, to
+increase availability. Once the new AMI is in an Available state the copy is complete.
+https://aws.amazon.com/blogs/aws/ec2-ami-copy-between-regions/ 
+
+
+QUESTION 5
+A company has a 143 TB MySQL database that it wants to migrate to AWS. The plan is to use Amazon
+Aurora MySQL as the platform going forward. The company has a 100 Mbps AWS Direct Connect
+connection to Amazon VPC.
+Which solution meets the company's needs and takes the LEAST amount of time? 
+
+A. Use a gateway endpoint for Amazon S3 Migrate the data to Amazon S3 Import the data into Aurora
+B. Upgrade the Direct Connect link to 500 Mbps. Copy the data to Amazon S3 Import the data into Aurora
+C. Order an AWS Snowmobile and copy the database backup to it. Have AWS import the data into Amazon S3 Import
+the backup into Aurora
+D. Order four 50-TB AWS Snowball devices and copy the database backup onto them. Have AWS import the data into
+Amazon S3 Import the data into Aurora
+
+Correct Answer: D 
+
+QUESTION 1
+A city has deployed a web application running on AmazonEC2 instances behind an Application Load Balancer (ALB)
+The Application's users have reported sporadic performance, which appears to be related to DDoS attacks originating
+from random IP addresses. The City needs a solution that requires minimal configuration changes and provides an audit
+trail for the DDoS source. Which solution meets these requirements..?
+A. Enable an AWS WAF web ACL on the ALB and configure rules to block traffic from unknown sources.
+B. Subscribe to Amazon inspector. Engage the AWS DDoS Resource Team (DRT) to integrate migrating controls into
+the service.
+C. Subscribe to AWS shield advanced. Engage the AWS DDoS Response team (DRT) to integrate migrating controls
+into the service.
+D. Create an Amazon CloudFront distribution for the application and set the ALB as the origin. Enable an AWS WAF
+web ACL on the distribution and configure rules to block traffic from unknown sources.
+
+Correct Answer: C 
+
+QUESTION 2
+A mobile gaming company runs application servers on Amazon EC2 instances. The servers receive updates from
+players every 15 minutes. The mobile game creates a JSON object of the progress made in the game since the last
+update, and sends the JSON object to an Application Load Balancer. As the mobile game is played, game updates are
+being lost. The company wants to create a durable way to get the updates in older. What should a solutions architect
+recommend to decouple the system?
+A. Use Amazon Kinesis Data Streams to capture the data and store the JSON object in Amazon S3.
+B. Use Amazon Kinesis Data Firehose to capture the data and store the JSON object in Amazon S3.
+C. Use Amazon Simple Queue Service (Amazon SQS) FIFO queues to capture the data and EC2 instances to process
+the messages in the queue.
+D. Use Amazon Simple Notification Service (Amazon SNS) to capture the data and EC2 instances to process the
+messages sent to the Application Load Balancer.
+Correct Answer: C 
