@@ -8,5 +8,5 @@
 
 https://aws.amazon.com/cn/datasync/getting-started/
 
-
-
+![](./datasync.png)
+![](./datasync-2.png)
