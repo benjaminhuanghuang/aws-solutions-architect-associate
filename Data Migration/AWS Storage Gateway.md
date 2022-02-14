@@ -1,4 +1,5 @@
-
+# Storage Gateway
+Provide on-premises applications with access to virtually unlimited cloud storage
 
 To minimize latency, frequently accessed data should be available locally.
 
