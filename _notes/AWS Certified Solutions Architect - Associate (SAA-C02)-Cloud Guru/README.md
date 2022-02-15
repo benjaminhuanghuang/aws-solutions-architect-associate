@@ -72,6 +72,8 @@ Chapter 15
 8 Lessons
 Big Data
 1:05:29
+
+
 Chapter 16
 9 Lessons
 Serverless Architecture
