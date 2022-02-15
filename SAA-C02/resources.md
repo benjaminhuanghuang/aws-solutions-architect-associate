@@ -19,6 +19,8 @@ https://www.linkedin.com/learning/paths/prepare-for-the-aws-certified-solutions-
 
 - AWS Essential Training for Architects
 
+- AWS SAA-C02 认证 官方备考研讨会2020 AWS备考教程
+  - https://www.youtube.com/watch?v=E8X33rpVj_s&ab_channel=Nietzsche%E5%B0%BC%E9%87%87
 
 ## Articles
 - AWS Solution Architect Associate 通过指南
