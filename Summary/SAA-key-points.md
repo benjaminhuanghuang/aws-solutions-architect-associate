@@ -10,6 +10,10 @@
   - Resilient, expansibility
 
 - Domain 3: Design Secure Applications and Architectures 24%
+  - data
+  - App
+  - network
+  
 - Domain 4: Design Cost-Optimized Architectures 18%
 
 ## Three Models of Cloud Computing
