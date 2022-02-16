@@ -17,162 +17,154 @@ https://www.bilibili.com/video/BV1fV41127vz?p=1
 
 ## Chapter 1 Introduction
 
-- An Important Note About A Cloud Guru and Linux Academy Courses
+- An Important Note About A Cloud Guru and Linux Academy Courses 1:18
 
-- Introduction
+- Introduction 1:19
 
-- The Exam Blueprint
+- The Exam Blueprint 5:09
 
-- Why Should I Learn and Get Certified with AWS?
+- Why Should I Learn and Get Certified with AWS? 13:21
 
-- A Note About Demo Lessons
+- A Note About Demo Lessons 0:54
 
 ## Chapter 2 Supporting Courses
 
-- Certification Path and Supporting Courses
+Certification Path and Supporting Courses
+1:15
+Designing Resilient Architectures for Associate AWS Solutions Architects
+1:25
+Networking and Compute for Associate AWS Solutions Architects
+1:16
+Storage, Databases, and Migration for Associate AWS Solutions Architects
+1:18
+High Availability and Scalability for Associate AWS Solutions Architects
+1:14
 
-- Designing Resilient Architectures for Associate AWS Solutions Architects
+- Application Services for Associate AWS Solutions Architects 1:18
+- Logging and Security for Associate AWS Solutions Architects 1:17
 
-- Networking and Compute for Associate AWS Solutions Architects
-
-- Storage, Databases, and Migration for Associate AWS Solutions Architects
-
-- High Availability and Scalability for Associate AWS Solutions Architects
-
-- Application Services for Associate AWS Solutions Architects
-
-- Logging and Security for Associate AWS Solutions Architects
 
 ## Chapter 3  AWS - 10,000-Foot Overview
+- The History of AWS So Far 6:52
 
-- The History of AWS So Far
+- AWS - 10,000-Foot Overview 15:09
 
-- AWS - 10,000-Foot Overview
+- How to Sign up for AWS 3:16
 
-- How to Sign up for AWS
-
-- 10,000 Foot Overview Quiz
+- 10,000 Foot Overview Quiz 15:00 Quiz
 
 
 ## Chapter 4 Identity and Access Management & S3
-Identity and Access Management 101
-4:34
-Identity and Access Management - Demo
-17:35
-Create a Billing Alarm - Demo
-4:51
-S3 101
-18:39
-Create an S3 Bucket - Demo
-11:15
-S3 Pricing Tiers [SAA-C02]
-4:38
-S3 Security and Encryption
-5:55
-S3 Versioning - Demo
-9:13
-Lifecycle Management with S3 - Demo
-S3 Object Lock and Glacier Vault Lock [SAA-C02]
-5:08
-S3 Performance [SAA-C02]
-6:37
-S3 Select and Glacier Select [SAA-C02]
-2:40
-AWS Organizations and Consolidated Billing [SAA-C02]
-8:18
-Sharing S3 Buckets Across Accounts - Lab [SAA-C02]
-8:32
+
+- Identity and Access Management 101 - 4:34
+
+- Identity and Access Management - Demo 17:35
+
+- Create a Billing Alarm - Demo 4:51
+
+- S3 101 18:39
+
+- Create an S3 Bucket - Demo 11:15
+
+- S3 Pricing Tiers [SAA-C02] 4:38
+
+- S3 Security and Encryption 5:55
+
+- S3 Versioning - Demo 9:13
+
+- Lifecycle Management with S3 - Demo
+
+- S3 Object Lock and Glacier Vault Lock [SAA-C02] 5:08
+
+- S3 Performance [SAA-C02] 6:37
+
+- S3 Select and Glacier Select [SAA-C02] 2:40
+
+- AWS Organizations and Consolidated Billing [SAA-C02] 8:18
+
+- Sharing S3 Buckets Across Accounts - Lab [SAA-C02] 8:32
+
 Cross-Region Replication - Demo
 8:27
 S3 Transfer Acceleration
 2:48
-AWS DataSync [SAA-C02]
-2:05
-CloudFront
-5:08
-Create a CloudFront Distribution - Demo
-
-7:17
+- AWS DataSync [SAA-C02] 2:05
+- CloudFront 5:08
+- Create a CloudFront Distribution - Demo 7:17
 CloudFront Signed URLs and Cookies [SAA-C02]
 6:43
 Snowball
 4:57
 Snowball - Demo
 8:34
-Storage Gateway
-10:25
-Athena vs. Macie [SAA-C02]
-4:28
-S3 and IAM Summary
-17:28
+
+- Storage Gateway 10:25
+
+- Athena vs. Macie [SAA-C02] 4:28
+
+- S3 and IAM Summary 17:28
+
 - Creating a Static Website Using Amazon S3 30:00 Hands-On Lab
 
 - Introduction to AWS Identity and Access Management (IAM) - 2020 45:00 Hands-On Lab
 
 - Identity Access Management Quiz
 
-## Chapter 5 27 Lessons EC2
-EC2 101 - Elastic Compute Cloud
-14:27
-Launch Our First EC2 Instance: Part 1 - Demo
-20:08
-Launch Our First EC2 Instance: Part 2 - Demo
-8:36
-Security Groups - Demo
-10:02
-EBS 101
-3:41
-EBS Volumes and Snapshots - Demo
-16:58
-AMI Types (EBS vs. Instance Store)
-7:28
-ENI vs. ENA vs. EFA [SAA-C02]
-6:53
-Encrypted Root Device Volumes and Snapshots - Demo
-6:22
-Spot Instances and Spot Fleets [SAA-C02]
-8:48
-EC2 Hibernate [SAA-C02]
-7:24
-CloudWatch 101
-4:47
-CloudWatch - Demo
-8:28
-AWS Command Line (CLI) - Demo
-7:57
-Identity and Access Management Roles - Demo
-5:20
-Using Bootstrap Scripts - Demo
-6:15
-Instance Metadata - Demo
-4:17
-EFS - Lab [SAA-C02]
-12:05
-Amazon FSx for Windows and Amazon FSx for Lustre [SAA-C02]
-4:35
-EC2 Placement Groups
-6:32
-HPC on AWS [SAA-C02]
-10:42
-AWS WAF [SAA-C02]
-3:45
-EC2 Summary
-18:46
-Using AWS Tags and Resource Groups in AWS
-1:00:00
-Hands-On Lab
-Creating and Working with an EC2 Instance in AWS
-45:00
-Hands-On Lab
-Using EC2 Roles and Instance Profiles in AWS
-1:30:00
-Hands-On Lab
-EC2 Quiz
-15:00
-Quiz
+## Chapter 5 EC2
+- EC2 101 - Elastic Compute Cloud 14:27
+
+- Launch Our First EC2 Instance: Part 1 - Demo 20:08
+
+- Launch Our First EC2 Instance: Part 2 - Demo 8:36
+
+- Security Groups - Demo 10:02
+
+- EBS 101 3:41
+
+- EBS Volumes and Snapshots - Demo 16:58
+
+- AMI Types (EBS vs. Instance Store) 7:28
+
+- ENI vs. ENA vs. EFA [SAA-C02] 6:53
+
+- Encrypted Root Device Volumes and Snapshots - Demo 6:22
+
+- Spot Instances and Spot Fleets [SAA-C02] 8:48
+
+- EC2 Hibernate [SAA-C02] 7:24
+
+- CloudWatch 101 4:47
+
+- CloudWatch - Demo 8:28
+
+- AWS Command Line (CLI) - Demo 7:57
+
+- Identity and Access Management Roles - Demo
+
+- 5:20 Using Bootstrap Scripts - Demo 6:15
+
+- Instance Metadata - Demo 4:17
+
+- EFS - Lab [SAA-C02] 12:05
+- Amazon FSx for Windows and Amazon FSx for Lustre [SAA-C02] 4:35
+
+- EC2 Placement Groups 6:32
+- HPC on AWS [SAA-C02] 10:42
+- AWS WAF [SAA-C02] 3:45
+- EC2 Summary 18:46
 
 
-## Chapter 6 15 Lessons Databases on AWS
+
+- Using AWS Tags and Resource Groups in AWS 1:00:00 Hands-On Lab
+
+- Creating and Working with an EC2 Instance in AWS 45:00 Hands-On Lab
+
+- Using EC2 Roles and Instance Profiles in AWS 1:30:00 Hands-On Lab
+
+- EC2 Quiz 15:00 Quiz
+
+
+## Chapter 6 Databases on AWS
 
 
 Databases 101
@@ -208,7 +200,7 @@ Databases On AWS Quiz
 15:00
 Quiz
 
-## Chapter 7 5 Lessons Advanced IAM
+## Chapter 7 Advanced IAM
 
 AWS Directory Service [SAA-C02]
 7:32
@@ -220,7 +212,7 @@ AWS Single Sign-On [SAA-C02]
 2:57
 Advanced IAM Summary [SAA-C02]
 
-## Chapter 8 12 Lessons Route 53
+## Chapter 8 Route 53
 
 
 DNS 101
@@ -249,7 +241,7 @@ Route 53 Quiz
 15:00
 Quiz
 
-## Chapter 9 20 Lessons  VPCs
+## Chapter 9 VPCs
 
 VPC Overview
 12:11
@@ -295,7 +287,7 @@ VPCs Quiz
 15:00
 Quiz
 
-## Chapter 10 17 Lessons HA Archietcure
+## Chapter 10 HA Archietcure
 
 Elastic Load Balancers
 6:06
@@ -332,7 +324,7 @@ Getting Started with CloudFormation
 Hands-On Lab
 HA Architecture Quiz
 
-## Chapter 11 11 Lessons Application
+## Chapter 11 Application
 
 
 SQS [SAA-C02]
@@ -361,7 +353,7 @@ Applications Quiz
 Quiz
 
 
-## Chapter 12 7 Lessons Security
+## Chapter 12 Security
 Reducing Security Threats [SAA-C02]
 5:35
 Key Management Service (KMS) [SAA-C02]
@@ -376,7 +368,7 @@ AWS Shield [SAA-C02]
 3:15
 Web Application Firewall (WAF) [SAA-C02]
 
-## Chapter 13 17 Lessons Serverless
+## Chapter 13 Serverless
 
 Lambda
 13:31

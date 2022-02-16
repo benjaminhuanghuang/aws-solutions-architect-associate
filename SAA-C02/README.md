@@ -7,10 +7,13 @@ Cost: **150** USD
 Format: **65** questions, either multiple choice or multiple response
 
 Qualification is valid for 2 years.
+![](./saa-c02-content.png)
+
 
 ! AWS Certified Solutions Architect - Associate exam (SAA-C01) retired on June 30, 2020 and was replaced by exam SAA-C02.
+![](./saa-c01-c02.png)
 
-![](./saa-c02-content.png)
+
 
 ## Official Web site
 - https://aws.amazon.com/certification/exams/?nc2=sb_ce_exm
