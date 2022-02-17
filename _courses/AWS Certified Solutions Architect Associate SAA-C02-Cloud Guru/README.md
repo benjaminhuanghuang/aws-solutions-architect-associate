@@ -29,18 +29,18 @@ https://www.bilibili.com/video/BV1fV41127vz?p=1
 
 ## Chapter 2 Supporting Courses
 
-Certification Path and Supporting Courses
-1:15
-Designing Resilient Architectures for Associate AWS Solutions Architects
-1:25
-Networking and Compute for Associate AWS Solutions Architects
-1:16
-Storage, Databases, and Migration for Associate AWS Solutions Architects
-1:18
-High Availability and Scalability for Associate AWS Solutions Architects
-1:14
+- Certification Path and Supporting Courses 1:15
+
+- Designing Resilient Architectures for Associate AWS Solutions Architects 1:25
+
+- Networking and Compute for Associate AWS Solutions Architects 1:16
+
+- Storage, Databases, and Migration for Associate AWS Solutions Architects 1:18
+
+- High Availability and Scalability for Associate AWS Solutions Architects 1:14
 
 - Application Services for Associate AWS Solutions Architects 1:18
+
 - Logging and Security for Associate AWS Solutions Architects 1:17
 
 
@@ -84,19 +84,21 @@ High Availability and Scalability for Associate AWS Solutions Architects
 
 - Sharing S3 Buckets Across Accounts - Lab [SAA-C02] 8:32
 
-Cross-Region Replication - Demo
-8:27
-S3 Transfer Acceleration
-2:48
+- Cross-Region Replication - Demo 8:27
+
+- S3 Transfer Acceleration 2:48
+
 - AWS DataSync [SAA-C02] 2:05
+
 - CloudFront 5:08
+
 - Create a CloudFront Distribution - Demo 7:17
-CloudFront Signed URLs and Cookies [SAA-C02]
-6:43
-Snowball
-4:57
-Snowball - Demo
-8:34
+
+- CloudFront Signed URLs and Cookies [SAA-C02] 6:43
+
+- Snowball 4:57
+
+- Snowball - Demo 8:34
 
 - Storage Gateway 10:25
 
@@ -121,17 +123,25 @@ Snowball - Demo
 
 - EBS 101 3:41
 
-- EBS Volumes and Snapshots - Demo 16:58
+- EBS Volumes and Snapshots - Demo 16:58 
 
-- AMI Types (EBS vs. Instance Store) 7:28
+- AMI Types (EBS vs. Instance Store) 7:28  [x]
+
+Amazon Machine Images (AMI)
 
 - ENI vs. ENA vs. EFA [SAA-C02] 6:53
 
+ENI is a virtual network card for EC2
+
+
 - Encrypted Root Device Volumes and Snapshots - Demo 6:22
+
 
 - Spot Instances and Spot Fleets [SAA-C02] 8:48
 
+
 - EC2 Hibernate [SAA-C02] 7:24
+
 
 - CloudWatch 101 4:47
 
@@ -139,21 +149,52 @@ Snowball - Demo
 
 - AWS Command Line (CLI) - Demo 7:57
 
-- Identity and Access Management Roles - Demo
+- Identity and Access Management Roles - Demo 5:20 
 
-- 5:20 Using Bootstrap Scripts - Demo 6:15
+- Using Bootstrap Scripts - Demo 6:15
+EC2启动时执行
+
+```
+curl http://169.254.169.254/latest/user-data    # launch script of the EC2
+```
 
 - Instance Metadata - Demo 4:17
 
+```
+curl http://169.254.169.254/latest/meta-data
+
+curl http://169.254.169.254/latest/user-data    # launch script of the EC2
+```
+
 - EFS - Lab [SAA-C02] 12:05
+Elastic File System
+
+```
+  yum install -y amazon-efs-utils
+
+  mount -t efs -o tls fs-XXXXX:/ /var/www/html
+```
+Data is stored across multiple AZ's whithin a rergion
+
+Read After Write Consistency
+
+
 - Amazon FSx for Windows and Amazon FSx for Lustre [SAA-C02] 4:35
 
 - EC2 Placement Groups 6:32
+  - Glustered Placement Group:  in single availability zone
+  - Spread Placement Group:  on distinct underlying hardware
+  - Partitioned Placement Group: 
+
+
 - HPC on AWS [SAA-C02] 10:42
+
+High Performace Computing
+
+
 - AWS WAF [SAA-C02] 3:45
+
 - EC2 Summary 18:46
-
-
 
 - Using AWS Tags and Resource Groups in AWS 1:00:00 Hands-On Lab
 

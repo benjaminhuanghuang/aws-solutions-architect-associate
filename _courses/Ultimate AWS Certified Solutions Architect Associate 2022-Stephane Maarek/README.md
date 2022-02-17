@@ -4,37 +4,34 @@
 
 https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02
 
-https://www.bilibili.com/video/BV12K411p7uy?from=search&seid=9751173619331598857&spm_id_from=333.337.0.0
-
-
+https://www.bilibili.com/video/BV12K411p7uy
 
 ## Introduction - AWS Certified Solutions Architect Associate7 lectures • 13min
-Course Learning Contest
-00:42
-Course Introduction - AWS Certified Solutions Architect Associate
-Preview03:43
+- Course Learning Contest 00:42
+
+- Course Introduction - AWS Certified Solutions Architect Associate Preview03:43
+
 PLEASE READ: Lectures you can skip if you took a course from me before
 01:16
-Creating an AWS Account
-Preview01:39
-AWS Account Activation Troubleshooting
-02:05
-Important Message
-00:59
-About your instructor
-02:20
 
-## Code & Slides Download1 lecture • 1min
-Slides and Code Download
-00:15
+- Creating an AWS Accoun Preview 01:39
+
+- AWS Account Activation Troubleshooting 02:05
+
+- Important Message 00:59
+
+- About your instructor 02:20
+
+## Code & Slides Download 1 lecture • 1min
+- Slides and Code Download 00:15
 
 ## Getting started with AWS3 lectures • 13min
-AWS Cloud Overview - Regions & AZ
-Preview08:08
-Tour of the Console & Services in AWS
-Preview03:09
-About the UI changes in the course
-01:50
+
+- AWS Cloud Overview - Regions & AZ Preview08:08
+
+- Tour of the Console & Services in AWS Preview03:09
+
+- About the UI changes in the course 01:50
 
 ## IAM & AWS CLI19 lectures • 53min
 IAM Introduction: Users, Groups, Policies
