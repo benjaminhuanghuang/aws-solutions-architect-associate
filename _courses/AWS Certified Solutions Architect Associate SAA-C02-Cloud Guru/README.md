@@ -186,13 +186,14 @@ Read After Write Consistency
   - Spread Placement Group:  on distinct underlying hardware
   - Partitioned Placement Group: 
 
-
 - HPC on AWS [SAA-C02] 10:42
 
 High Performace Computing
 
 
 - AWS WAF [SAA-C02] 3:45
+
+
 
 - EC2 Summary 18:46
 
