@@ -194,7 +194,6 @@ High Performace Computing
 - AWS WAF [SAA-C02] 3:45
 
 
-
 - EC2 Summary 18:46
 
 - Using AWS Tags and Resource Groups in AWS 1:00:00 Hands-On Lab
@@ -208,241 +207,232 @@ High Performace Computing
 
 ## Chapter 6 Databases on AWS
 
+- Databases 101 11:40
 
-Databases 101
-11:40
-Let's Create Our First RDS Instance - Demo
-13:21
-RDS: Backups, Multi-AZ, and Read Replicas
-7:21
-RDS: Backups, Multi-AZ, and Read Replicas - Demo
-8:04
-DynamoDB
-3:52
-Advanced DynamoDB [SAA-C02]
-13:38
-Redshift
-6:33
-Aurora [SAA-C02]
-10:57
-Elasticache
-3:17
-Database Migration Service (DMS) [SAA-C02]
-5:26
-Caching Strategies on AWS [SAA-C02]
-2:58
-EMR Overview [SAA-C02]
-4:10
-Databases Summary
-5:52
-Deploying an Amazon RDS Multi-AZ and Read Replica in AWS
-1:00:00
-Hands-On Lab
-Databases On AWS Quiz
-15:00
-Quiz
+RDS 2 key features: 
+  Multi-AZ for disaster recovery, Read replicas for performance
+
+NRD:  
+  Collection(Table), Documnt(Row), Key Value pair(Fields)  
+
+- Let's Create Our First RDS Instance - Demo 13:21
+
+
+- RDS: Backups, Multi-AZ, and Read Replicas 7:21
+
+- RDS: Backups, Multi-AZ, and Read Replicas - Demo 8:04
+
+- DynamoDB 3:52
+
+- Advanced DynamoDB [SAA-C02] 13:38
+
+- Redshift 6:33
+
+- Aurora [SAA-C02] 10:57
+
+- Elasticache 3:17
+
+- Database Migration Service (DMS) [SAA-C02] 5:26
+
+- Caching Strategies on AWS [SAA-C02] 2:58
+
+- EMR Overview [SAA-C02] 4:10
+
+- Databases Summary 5:52
+
+- Deploying an Amazon RDS Multi-AZ and Read Replica in AWS 1:00:00 Hands-On Lab
+
+- Databases On AWS Quiz 15:00 Quiz
 
 ## Chapter 7 Advanced IAM
 
-AWS Directory Service [SAA-C02]
-7:32
-IAM Policies [SAA-C02]
-15:46
-AWS Resource Access Manager (RAM) [SAA-C02]
-4:53
-AWS Single Sign-On [SAA-C02]
-2:57
-Advanced IAM Summary [SAA-C02]
+- AWS Directory Service [SAA-C02] 7:32
+Microsoft AD
+
+- IAM Policies [SAA-C02] 15:46
+Amazon Resorce Name (ARN)
+```
+  arn:partition:service:resion:account_id
+```
+
+- AWS Resource Access Manager (RAM) [SAA-C02] 4:53
+
+- AWS Single Sign-On [SAA-C02] 2:57
+
+- Advanced IAM Summary [SAA-C02]
 
 ## Chapter 8 Route 53
 
+- DNS 101 13:56
 
-DNS 101
-13:56
-Register a Domain Name - Demo
-7:46
-Route 53 Routing Policies Available on AWS
-0:39
-Route 53: Simple Routing Policy - Demo
-3:29
-Route 53: Weighted Routing Policy - Demo
-7:07
-Route 53: Latency-Based Policy - Demo
-4:39
-Route 53: Failover Routing Policy - Demo
-4:03
-Route 53: Geolocation Routing Policy - Demo
-4:57
-Route 53: Geoproximity Routing Policy (Traffic Flow Only) - Demo
-3:02
-Route 53: Multivalue Answer Policy - Demo
-4:03
-DNS Summary
-5:18
-Route 53 Quiz
-15:00
-Quiz
+- Register a Domain Name - Demo 7:46
+
+- Route 53 Routing Policies Available on AWS 0:39
+
+- Route 53: Simple Routing Policy - Demo 3:29
+
+- Route 53: Weighted Routing Policy - Demo 7:07
+
+- Route 53: Latency-Based Policy - Demo 4:39
+
+- Route 53: Failover Routing Policy - Demo 4:03
+
+- Route 53: Geolocation Routing Policy - Demo 4:57
+
+- Route 53: Geoproximity Routing Policy (Traffic Flow Only) - Demo 3:02
+
+- Route 53: Multivalue Answer Policy - Demo 4:03
+
+- DNS Summary 5:18
+
+- Route 53 Quiz 15:00 Quiz
 
 ## Chapter 9 VPCs
 
-VPC Overview
-12:11
-Create Your Own Custom VPC: Part 1 - Demo
-20:27
-Create Your Own Custom VPC: Part 2 - Demo
-6:39
-NAT Instances and NAT Gateways - Demo
-13:01
-Network Access Control Lists vs. Security Groups - Demo
-15:12
-Custom VPCs and ELBs - Demo
-2:19
-VPC Flow Logs - Demo
-5:45
-Bastions
-3:28
-Direct Connect
-3:39
-Setting Up Direct Connect [SAA-C02]
-2:37
-Global Accelerator [SAA-C02]
-11:47
-VPC Endpoints [SAA-C02]
-10:53
-AWS PrivateLink [SAA-C02]
-3:36
-AWS Transit Gateway [SAA-C02]
-2:40
-AWS VPN CloudHub [SAA-C02]
-2:00
-AWS Network Costs [SAA-C02]
-3:35
-VPC Summary
-15:15
-Creating a Basic VPC and Associated Components in AWS
-45:00
-Hands-On Lab
-Working with AWS VPC Flow Logs for Network Monitoring - 2020
-1:30:00
-Hands-On Lab
-VPCs Quiz
-15:00
-Quiz
+- VPC Overview 12:11
+
+- Create Your Own Custom VPC: Part 1 - Demo 20:27
+
+- Create Your Own Custom VPC: Part 2 - Demo 6:39
+
+- NAT Instances and NAT Gateways - Demo 13:01
+
+- Network Access Control Lists vs. Security Groups - Demo 15:12
+
+- Custom VPCs and ELBs - Demo 2:19
+
+- VPC Flow Logs - Demo 5:45
+
+- Bastions 3:28
+
+- Direct Connect 3:39
+
+- Setting Up Direct Connect [SAA-C02] 2:37
+
+- Global Accelerator [SAA-C02] 11:47
+
+- VPC Endpoints [SAA-C02] 10:53
+
+- AWS PrivateLink [SAA-C02] 3:36
+
+- AWS Transit Gateway [SAA-C02] 2:40
+
+- AWS VPN CloudHub [SAA-C02] 2:00
+
+- AWS Network Costs [SAA-C02] 3:35
+
+- VPC Summary 15:15
+
+- Creating a Basic VPC and Associated Components in AWS 45:00 Hands-On Lab
+
+- Working with AWS VPC Flow Logs for Network Monitoring - 2020 1:30:00 Hands-On Lab
+
+- VPCs Quiz 15:00 Quiz
 
 ## Chapter 10 HA Archietcure
 
-Elastic Load Balancers
-6:06
-Load Balancers and Health Checks - Demo
-15:43
-Advanced Load Balancer Theory [SAA-C02]
-7:03
-Auto Scaling [SAA-C02]
-5:15
-Launch Configurations and Auto Scaling Groups - Demo
-8:19
-HA Architecture
-6:22
-Building a Fault-Tolerant WordPress Site: Getting Set Up - Demo
-10:31
-Building a Fault-Tolerant WordPress Site: Setting Up EC2 - Demo
-21:24
-Building a Fault-Tolerant WordPress Site: Adding Resilience and Auto Scaling - Demo
-20:09
-Building a Fault-Tolerant WordPress Site: Cleaning Up - Demo
-4:12
-Building a Fault-Tolerant WordPress Site: CloudFormation - Demo
-6:35
-Elastic Beanstalk
-5:20
-High Availability with Bastion Hosts [SAA-C02]
-4:19
-On-Premises Strategies with AWS [SAA-C02]
-4:37
-HA Architecture Summary
-7:57
-Getting Started with CloudFormation
-1:00:00
-Hands-On Lab
-HA Architecture Quiz
+- Elastic Load Balancers 6:06
+
+- Load Balancers and Health Checks - Demo 15:43
+
+- Advanced Load Balancer Theory [SAA-C02] 7:03
+
+- Auto Scaling [SAA-C02] 5:15
+
+- Launch Configurations and Auto Scaling Groups - Demo 8:19
+
+- HA Architecture 6:22
+
+- Building a Fault-Tolerant WordPress Site: Getting Set Up - Demo 10:31 
+
+- Building a Fault-Tolerant WordPress Site: Setting Up EC2 - Demo 21:24
+
+- Building a Fault-Tolerant WordPress Site: Adding Resilience and Auto Scaling - Demo 20:09
+
+- Building a Fault-Tolerant WordPress Site: Cleaning Up - Demo 4:12
+
+- Building a Fault-Tolerant WordPress Site: CloudFormation - Demo 6:35
+
+- Elastic Beanstalk 5:20
+
+- High Availability with Bastion Hosts [SAA-C02] 4:19
+
+- On-Premises Strategies with AWS [SAA-C02] 4:37
+
+- HA Architecture Summary 7:57
+
+- Getting Started with CloudFormation 1:00:00 Hands-On Lab
+
+- HA Architecture Quiz
 
 ## Chapter 11 Application
 
 
-SQS [SAA-C02]
-10:50
-Simple Workflow Service
-5:47
-Simple Notification Service
-4:05
-Elastic Transcoder
-2:35
-API Gateway
-9:43
-Kinesis 101 [SAA-C02]
-9:08
-Web Identity Federation and Cognito
-7:23
-Event Processing Patterns [SAA-C02]
-8:13
-Applications Summary
-8:38
-Scaling EC2 Using SQS
-45:00
-Hands-On Lab
-Applications Quiz
-15:00
-Quiz
+- SQS [SAA-C02] 10:50
+
+- Simple Workflow Service 5:47
+
+- Simple Notification Service 4:05
+
+- Elastic Transcoder 2:35
+
+- API Gateway 9:43
+
+- Kinesis 101 [SAA-C02] 9:08
+
+- Web Identity Federation and Cognito 7:23
+
+- Event Processing Patterns [SAA-C02] 8:13
+
+- Applications Summary 8:38
+
+- Scaling EC2 Using SQS 45:00 Hands-On Lab
+
+- Applications Quiz 15:00 Quiz
 
 
 ## Chapter 12 Security
-Reducing Security Threats [SAA-C02]
-5:35
-Key Management Service (KMS) [SAA-C02]
-13:35
-CloudHSM [SAA-C02]
-3:49
-Systems Manager Parameter Store [SAA-C02]
-13:08
-Secrets Manager [SAA-C02]
-2:18
-AWS Shield [SAA-C02]
-3:15
-Web Application Firewall (WAF) [SAA-C02]
+- Reducing Security Threats [SAA-C02] 5:35
+
+- Key Management Service (KMS) [SAA-C02] 13:35
+
+- CloudHSM [SAA-C02] 3:49
+
+- Systems Manager Parameter Store [SAA-C02] 13:08
+
+- Secrets Manager [SAA-C02] 2:18
+
+- AWS Shield [SAA-C02] 3:15
+
+- Web Application Firewall (WAF) [SAA-C02]
 
 ## Chapter 13 Serverless
 
-Lambda
-13:31
-Programmatically Utilizing Data From S3
-1:00:00
-Hands-On Lab
-Let's Build an Alexa Skill - Demo
-16:57
-Serverless Application Model (SAM) [SAA-C02]
-9:23
-Elastic Container Service (ECS) [SAA-C02]
-18:09
-Serverless Summary
-3:45
-Serverless Quiz
-15:00
-Quiz
+- Lambda 13:31
+
+- Programmatically Utilizing Data From S3 1:00:00 Hands-On Lab
+
+- Let's Build an Alexa Skill - Demo 16:57
+
+- Serverless Application Model (SAM) [SAA-C02] 9:23
+
+- Elastic Container Service (ECS) [SAA-C02] 18:09
+
+- Serverless Summary 3:45
+
+- Serverless Quiz 15:00 Quiz
 
 ## Chapter 14 6 Lessons Good Luck!
 
-Good Luck and How to Book Your Exam
-3:29
-Thank You and Next Steps
-1:26
-Keep Up to Date with AWS This Week
-1:02
-Challenge Quiz 1
-1:15:00
-Quiz
-Challenge Quiz 2
-1:15:00
-Quiz
-AWS Certified Solutions Architect – Associate Exam
-2:15:00
-Quiz
+- Good Luck and How to Book Your Exam 3:29
+
+- Thank You and Next Steps 1:26
+
+- Keep Up to Date with AWS This Week 1:02
+
+- Challenge Quiz 1 1:15:00 Quiz
+
+- Challenge Quiz 2 1:15:00 Quiz
+
+- AWS Certified Solutions Architect – Associate Exam 2:15:00 Quiz
+

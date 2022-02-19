@@ -1,4 +1,4 @@
-## Read after write consitency
+## Read after write consistency
 
 - EFS
 
