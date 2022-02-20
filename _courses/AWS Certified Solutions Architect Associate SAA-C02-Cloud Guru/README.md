@@ -297,6 +297,9 @@ Amazon Resorce Name (ARN)
 
 - NAT Instances and NAT Gateways - Demo 13:01
 
+Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.
+
+
 - Network Access Control Lists vs. Security Groups - Demo 15:12
 
 - Custom VPCs and ELBs - Demo 2:19
@@ -304,6 +307,10 @@ Amazon Resorce Name (ARN)
 - VPC Flow Logs - Demo 5:45
 
 - Bastions 3:28
+
+A bastion host is a server whose purpose is to provide access to a private network from an external network, such as the Internet. 
+
+https://aws.amazon.com/cn/quickstart/architecture/linux-bastion/
 
 - Direct Connect 3:39
 
