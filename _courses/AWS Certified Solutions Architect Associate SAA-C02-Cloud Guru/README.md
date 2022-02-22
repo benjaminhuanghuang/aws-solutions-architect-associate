@@ -320,15 +320,30 @@ https://aws.amazon.com/cn/quickstart/architecture/linux-bastion/
 
 - VPC Endpoints [SAA-C02] 10:53
 
+Private connect from VPC to AWS serivce
+
+support S3 and dynamoDB
+
+
 - AWS PrivateLink [SAA-C02] 3:36
 
+Expose a service in a VPC to another VPC
+
+
 - AWS Transit Gateway [SAA-C02] 2:40
+Simplify Network
+
 
 - AWS VPN CloudHub [SAA-C02] 2:00
+ 
+ Connect VPN together
 
 - AWS Network Costs [SAA-C02] 3:35
+  
 
 - VPC Summary 15:15
+
+
 
 - Creating a Basic VPC and Associated Components in AWS 45:00 Hands-On Lab
 
@@ -340,15 +355,24 @@ https://aws.amazon.com/cn/quickstart/architecture/linux-bastion/
 
 - Elastic Load Balancers 6:06
 
+
 - Load Balancers and Health Checks - Demo 15:43
 
 - Advanced Load Balancer Theory [SAA-C02] 7:03
 
+Sticky Session
+
+Cross Zone Load Balancing
+
+
 - Auto Scaling [SAA-C02] 5:15
+
 
 - Launch Configurations and Auto Scaling Groups - Demo 8:19
 
+
 - HA Architecture 6:22
+
 
 - Building a Fault-Tolerant WordPress Site: Getting Set Up - Demo 10:31 
 
