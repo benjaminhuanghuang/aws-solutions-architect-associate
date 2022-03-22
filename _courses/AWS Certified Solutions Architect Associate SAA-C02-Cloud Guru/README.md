@@ -390,6 +390,7 @@ Cross Zone Load Balancing
 
 - On-Premises Strategies with AWS [SAA-C02] 4:37
 
+
 - HA Architecture Summary 7:57
 
 - Getting Started with CloudFormation 1:00:00 Hands-On Lab
