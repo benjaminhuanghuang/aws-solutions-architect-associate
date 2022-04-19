@@ -343,8 +343,6 @@ Simplify Network
 
 - VPC Summary 15:15
 
-
-
 - Creating a Basic VPC and Associated Components in AWS 45:00 Hands-On Lab
 
 - Working with AWS VPC Flow Logs for Network Monitoring - 2020 1:30:00 Hands-On Lab
@@ -355,14 +353,13 @@ Simplify Network
 
 - Elastic Load Balancers 6:06
 
-
 - Load Balancers and Health Checks - Demo 15:43
 
 - Advanced Load Balancer Theory [SAA-C02] 7:03
 
-Sticky Session
+- Sticky Session
 
-Cross Zone Load Balancing
+- Cross Zone Load Balancing
 
 
 - Auto Scaling [SAA-C02] 5:15
